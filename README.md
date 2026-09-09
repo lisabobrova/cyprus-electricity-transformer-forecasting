@@ -17,4 +17,3 @@ Transformer-based models were used for both classification and forecasting tasks
 For the sharp-movement classification task, market forecast variables were used to predict the probability of a significant price movement during each market interval.
 
 These predicted probabilities were subsequently used to identify meaningful regions within the forecast day. Separate transformer-based forecasting models were then applied to the resulting price segments.
-
